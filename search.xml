@@ -3,6 +3,20 @@
   
     
     <entry>
+      <title>手机端使用Termux搭建Hexo博客+部署到github</title>
+      <link href="/2019/03/23/%E6%96%873/"/>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul><li>1.安装termux终端</li><li>2.打开termux，出现installing请等待或使用梯子加快速度</li><li><p>3.依次执行命令pkg install coreutils //安装coreutils软件包<br>pkg install git //安装git<br>pkg install nodejs //安装node.js</p></li><li><p>4.由于官方npm镜像在国内会卡，所以使用淘宝镜像<br>npm config set registry <a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p></li></ul><a id="more"></a><ul><li><p>5.继续依次执行命令npm install hexo-cli -g //安装hexo<br>mkdir hexo<br>cd hexo //新建hexo文件夹并打开<br>hexo init //初始化hexo</p></li><li><p>6.termux中生成的文件夹路径<br>/data/data/com.termux/files/home/hexo</p></li><li><p>7.配置Git全局信息，这样才能提交数据<br>git config –global user.name “你的Gitee用户名”<br>git config –global user.email “你Gitee使用的邮箱”</p></li><li><p>8.修改配置文件<br>进去github查看我们创建博客的仓库，记录下git地址</p></li></ul><p>在数据根目录，找到这个文件_config.yml配置文件打开它</p><ul><li>9.修改1——存放数据路径修改:<br>设置_config.yml的信息<br>uri: 你的github名.gitub.io<br>type: git<br>末尾加上<br>repo: 你的git地址<br>branch: master</li></ul><ul><li>10.保存退出(个人推荐手机上使用MT管理器)</li></ul><ul><li>11.我们来测试一下本地文件能否于gitee端传输数据上去</li></ul><p>先安装 hexo-deployer-git插件，在数据目录执行:npm install hexo-deployer-git –save</p><p>生成静态文件，并上传至Gitee端，部署到服务器<br>在数据目录git bash 执行下命令<br>hexo g &amp;&amp; hexo d<br>查看仓库，我们看到文件有更新，说明我们对  接成功了<br>这样子就完成了部署<br>我们就可以直接访问这个网址进入自己的博客了</p><ul><li>12.写博客怎么写呢？<br>本地博客保存在:<br>数据目录\source_posts\md文件<br>我们只要写好的博客用Markdown编辑器，导出md文件放入此文件夹，再次执行<br>hexo g &amp;&amp; hexo d命令<br>即可提交至服务器端</li></ul><blockquote><p>关于仓库ssh和github的注册等等<br>本文就不一一细说了.百度就可以了</p></blockquote><blockquote><p>还有个小细节你退出终端后第二次怎么使用hexo呢？<br>输入cd hexo便可！</p></blockquote>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>致我们的青春，那些曾读过的小说</title>
       <link href="/2019/03/23/%E6%96%871/"/>
       <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有一种古董，叫做《哑舍》；<br>有一种恩怨，叫做《镜》；<br>有一种延续，叫做《羽》；<br>有一种结局，叫做《朱颜》；<br>有一种情谊，叫做《御兽师》；<br>有一种守护，叫做《符阵师》；<br>有一种不甘，叫做《驭灵师》；<br><a id="more"></a><br>有一种永生，叫做《时间海》；<br>有一种避世，叫做《隐世十族》；<br>有一种药材，叫做《问药》；<br>有一种温暖，叫做《织梦者》；<br>有一种星辰，叫做《北极星》；<br>有一种青春，叫做《青春奇妙物语》；<br>有一种狂妄，叫做《惊悚乐园》；<br>有一种沙场，叫做《天下不帅》；<br>有一种盛唐，叫做《浮云半书》；<br>有一种战争，叫做《龙族》；<br>有一种兄妹，叫做《风玫瑰》。</p><blockquote><p>时间过的如此之快以前那个青涩的少年早已成为了过去</p></blockquote><ul><li>2019一个新的开始?<br><img src="https://i.loli.net/2019/03/23/5c960838debb2.jpeg" alt="1e46be0f423454504d70c9c1cf06aa5c-01.jpeg"></li></ul>]]></content>
@@ -13,20 +27,6 @@
             <tag> 阅读 </tag>
             
             <tag> 随笔 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>手机端使用Termux搭建Hexo博客+部署到github</title>
-      <link href="/2019/03/23/%E6%96%873/"/>
-      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul><li>1.安装termux终端</li><li>2.打开termux，出现installing请等待或使用梯子加快速度</li><li><p>3.依次执行命令pkg install coreutils //安装coreutils软件包<br>pkg install git //安装git<br>pkg install nodejs //安装node.js</p></li><li><p>4.由于官方npm镜像在国内会卡，所以使用淘宝镜像<br>npm config set registry <a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p></li></ul><a id="more"></a><ul><li><p>5.继续依次执行命令npm install hexo-cli -g //安装hexo<br>mkdir hexo<br>cd hexo //新建hexo文件夹并打开<br>hexo init //初始化hexo</p></li><li><p>6.termux中生成的文件夹路径<br>/data/data/com.termux/files/home/hexo</p></li><li><p>7.配置Git全局信息，这样才能提交数据<br>git config –global user.name “你的Gitee用户名”<br>git config –global user.email “你Gitee使用的邮箱”</p></li><li><p>8.修改配置文件<br>进去github查看我们创建博客的仓库，记录下git地址</p></li></ul><p>在数据根目录，找到这个文件_config.yml配置文件打开它</p><ul><li>9.修改1——存放数据路径修改:<br>设置_config.yml的信息<br>uri: 你的github名.gitub.io<br>type: git<br>末尾加上<br>repo: 你的git地址<br>branch: master</li></ul><ul><li>10.保存退出(个人推荐手机上使用MT管理器)</li></ul><ul><li>11.我们来测试一下本地文件能否于gitee端传输数据上去</li></ul><p>先安装 hexo-deployer-git插件，在数据目录执行:npm install hexo-deployer-git –save</p><p>生成静态文件，并上传至Gitee端，部署到服务器<br>在数据目录git bash 执行下命令<br>hexo g &amp;&amp; hexo d<br>查看仓库，我们看到文件有更新，说明我们对  接成功了<br>这样子就完成了部署<br>我们就可以直接访问这个网址进入自己的博客了</p><ul><li>12.写博客怎么写呢？<br>本地博客保存在:<br>数据目录\source_posts\md文件<br>我们只要写好的博客用Markdown编辑器，导出md文件放入此文件夹，再次执行<br>hexo g &amp;&amp; hexo d命令<br>即可提交至服务器端</li></ul><blockquote><p>关于仓库ssh和github的注册等等<br>本文就不一一细说了.百度就可以了</p></blockquote><blockquote><p>还有个小细节你退出终端后第二次怎么使用hexo呢？<br>输入cd hexo便可！</p></blockquote>]]></content>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
             
         </tags>
       
