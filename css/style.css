@@ -7841,3 +7841,8 @@ td.hljs-ln-numbers {
 	.header-info {
 		display: none
 	}
+
+	#video-container {
+		display: none
+	}
+}
