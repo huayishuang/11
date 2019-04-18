@@ -7837,7 +7837,7 @@ td.hljs-ln-numbers {
     .toc {display: none;}
 }
 
-@media (max-width: 860px)
-.header-info {
-    display: none;
-}
+@media(max-width:860px) {
+	.header-info {
+		display: none
+	}
