@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-04-18T05:52:24.267Z</updated>
+  <updated>2019-04-18T13:09:56.077Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2019/03/23/%E6%96%873/"/>
     <id>/2019/03/23/文3/</id>
     <published>2019-03-23T09:54:54.000Z</published>
-    <updated>2019-04-18T05:52:24.267Z</updated>
+    <updated>2019-04-18T13:09:56.077Z</updated>
     
     <summary type="html">
     
@@ -39,7 +39,7 @@
     <link href="/2019/03/23/%E6%96%874/"/>
     <id>/2019/03/23/文4/</id>
     <published>2019-03-23T09:54:54.000Z</published>
-    <updated>2019-04-18T05:51:17.734Z</updated>
+    <updated>2019-04-18T13:11:28.307Z</updated>
     
     <summary type="html">
     
@@ -59,7 +59,7 @@
     <link href="/2018/12/12/%E6%96%871/"/>
     <id>/2018/12/12/文1/</id>
     <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-04-17T17:27:54.729Z</updated>
+    <updated>2019-04-18T13:11:00.967Z</updated>
     
     <summary type="html">
     
@@ -99,21 +99,15 @@
   </entry>
   
   <entry>
-    <title>hexo——电脑搭建教程</title>
+    <title>hexo——电脑端搭建教程</title>
     <link href="/2018/08/31/%E6%96%872/"/>
     <id>/2018/08/31/文2/</id>
     <published>2018-08-31T09:54:54.000Z</published>
-    <updated>2019-03-25T09:38:17.734Z</updated>
+    <updated>2019-04-18T13:18:58.867Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;实施方案&lt;/p&gt;
-&lt;p&gt;方案一：GithubPages&lt;/p&gt;
-&lt;p&gt;创建Github账号&lt;/p&gt;
-&lt;p&gt;创建仓库， 仓库名为：&amp;lt;Github账号名称&amp;gt;.github.io&lt;/p&gt;
-&lt;p&gt;将本地Hexo博客推送到GithubPages&lt;/p&gt;
-&lt;p&gt;3.1. 安装hexo-deployer-git插件。在命令行（即Git Bash）运行以下命令即可：&lt;/p&gt;
-&lt;p&gt;1&lt;br&gt;$ npm install hexo-deployer-git –save&lt;br&gt;3.2. 添加SSH key。&lt;br&gt;
+      电脑端搭建的部分教程
     
     </summary>
     
