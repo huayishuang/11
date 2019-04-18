@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-04-17T11:31:08.451Z</updated>
+  <updated>2019-04-18T05:52:24.267Z</updated>
   <id>/</id>
   
   <author>
@@ -21,18 +21,11 @@
     <link href="/2019/03/23/%E6%96%873/"/>
     <id>/2019/03/23/文3/</id>
     <published>2019-03-23T09:54:54.000Z</published>
-    <updated>2019-04-17T11:31:08.451Z</updated>
+    <updated>2019-04-18T05:52:24.267Z</updated>
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;1.安装termux终端&lt;/li&gt;
-&lt;li&gt;2.打开termux，出现installing请等待或使用梯子加快速度&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;3.依次执行命令pkg install coreutils //安装coreutils软件包&lt;br&gt;pkg install git //安装git&lt;br&gt;pkg install nodejs //安装node.js&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;4.由于官方npm镜像在国内会卡，所以使用淘宝镜像&lt;br&gt;npm config set registry &lt;a href=&quot;https://registry.npm.taobao.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://registry.npm.taobao.org&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+      手机端使用Termux搭建Hexo博客+部署到github
     
     </summary>
     
@@ -46,11 +39,11 @@
     <link href="/2019/03/23/%E6%96%874/"/>
     <id>/2019/03/23/文4/</id>
     <published>2019-03-23T09:54:54.000Z</published>
-    <updated>2019-03-31T13:41:17.680Z</updated>
+    <updated>2019-04-18T05:51:17.734Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;1、Windows、Office等微软原版镜像下载： &lt;a href=&quot;https://msdn.itellyou.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://msdn.itellyou.cn/&lt;/a&gt;&lt;br&gt;2、V2EX：科技宅/程序员，新奇想法聚集地： &lt;a href=&quot;https://www.v2ex.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.v2ex.com/&lt;/a&gt;&lt;br&gt;3：计算机书籍控：汇总各类编程语言的pdf书籍下载：&lt;br&gt;&lt;a href=&quot;http://bestcbooks.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://bestcbooks.com/&lt;/a&gt;&lt;br&gt;4：最新版迅雷发布站： &lt;a href=&quot;http://yangtai.xunlei.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://yangtai.xunlei.com/&lt;/a&gt;&lt;br&gt;5、有趣网址之家：汇集上千个有趣网站： &lt;a href=&quot;https://youquhome.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://youquhome.com/&lt;/a&gt;&lt;br&gt;6、书格：提供大量古籍免费下载的网站：&lt;br&gt;&lt;a href=&quot;http://pc.shuge.org:8888/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://pc.shuge.org:8888/&lt;/a&gt;&lt;br&gt;7、不会百度吗？动图链接生成站：&lt;br&gt;&lt;a href=&quot;http://buhuibaidu.me/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://buhuibaidu.me/&lt;/a&gt;&lt;br&gt;8、苦瓜书盘：免费电子书下载站：&lt;br&gt;&lt;a href=&quot;https://kgbook.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://kgbook.com/&lt;/a&gt;&lt;br&gt;9、免费论文下载站：&lt;br&gt;&lt;a href=&quot;http://lib.cust.edu.cn/webs/list/notice/723.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://lib.cust.edu.cn/webs/list/notice/723.html&lt;/a&gt;&lt;br&gt;
+      最全最实用的网站大全，有你需要的！
     
     </summary>
     
