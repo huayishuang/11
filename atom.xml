@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-04-18T13:40:17.933Z</updated>
+  <updated>2019-04-18T13:09:56.077Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>手机端使用Termux搭建Hexo博客+部署到github</title>
+    <link href="/2019/03/23/%E6%96%873/"/>
+    <id>/2019/03/23/文3/</id>
+    <published>2019-03-23T09:54:54.000Z</published>
+    <updated>2019-04-18T13:09:56.077Z</updated>
+    
+    <summary type="html">
+    
+      手机端使用Termux搭建Hexo博客+部署到github
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>优质小说分享有些小说是必看的</title>
@@ -33,24 +51,6 @@
       <category term="web" scheme="/tags/web/"/>
     
       <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手机端使用Termux搭建Hexo博客+部署到github</title>
-    <link href="/2019/03/23/%E6%96%873/"/>
-    <id>/2019/03/23/文3/</id>
-    <published>2019-03-23T09:54:54.000Z</published>
-    <updated>2019-04-18T13:09:56.077Z</updated>
-    
-    <summary type="html">
-    
-      手机端使用Termux搭建Hexo博客+部署到github
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
